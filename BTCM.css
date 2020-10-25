@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{margin: 0;
+padding: 0}
+header{
+	width: 100%	;
+	height: 150vh;
+	color: aqua;
+}
+.bigmenu{
+	width: 100%;
+	height: 50px;
+	background-color: aquamarine;
+	position: absolute;
+	z-index: 10
+}
+.logo{
+	width: 40%;
+	height: 50px;
+	background-color: bisque;
+	float: left;
+}
+.menu{
+	width: 60%;
+	height: 50px;
+	background-color: blanchedalmond;
+	float: right;
+}
+.top{
+ width: 100%;
+	height: 100vh;
+	background-image: url("hogward.jpg");
+	position: absolute;
+	background-size: cover;
+}
