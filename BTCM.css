@@ -5,27 +5,59 @@
 padding: 0}
 header{
 	width: 100%	;
-	height: 150vh;
+	height: 100vh;
 	color: aqua;
+}
+.bg{
+	background-color: rgba(0,0,0,0.00);
+	height: 8vh;
+	position: relative;
+	width: 100%;
+}
+.bg:hover{
+	background-color: rgba(0,0,0,0.60);
+	
 }
 .bigmenu{
 	width: 100%;
-	height: 50px;
-	background-color: aquamarine;
+	height: 8vh;
 	position: absolute;
-	z-index: 10
+	z-index: 10;
 }
 .logo{
 	width: 40%;
-	height: 50px;
-	background-color: bisque;
+	height: 8vh;
+	background-size: cover;
 	float: left;
+}
+.logo img {
+	height:7vh;
+	position: absolute;
+	left: 40px;
+	top: 10px;
+	z-index: 1000
 }
 .menu{
 	width: 60%;
-	height: 50px;
-	background-color: blanchedalmond;
+	height: 8vh;
 	float: right;
+	color: white;
+	line-height: 8vh
+}
+.menu ul{
+	list-style-type: none;
+	position: absolute;
+	right: 100px;
+}
+.menu ul li{
+	display: inline;
+	padding: 0 30px;
+}
+.menu a{
+	   text-decoration: none;
+	color: white;
+	font-size: 20px;
+
 }
 .top{
  width: 100%;
@@ -33,4 +65,11 @@ header{
 	background-image: url("hogward.jpg");
 	position: absolute;
 	background-size: cover;
+}
+.top img{
+	height: 55vh;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	
 }

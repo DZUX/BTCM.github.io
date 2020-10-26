@@ -1,3 +1,15 @@
 https://giphy.com/gifs/harry-potter-hogwarts-movie-Bh3YfliwBZNwk (background)
 https://codepen.io/josedavidfumo/pen/KVGejW (croll mouse)
 https://codepen.io/isladjan/pen/abdyPBw (scroll dep) 
+.top{
+ width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-size: cover;
+}
+.top img{
+	height: 55vh;
+	position: absolute;
+	left: 25%;
+	top: 30%;
+}
