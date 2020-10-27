@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+padding: 0}
+body{
+	cursor: url("19_-_Harry_Potter_-_Colour_-_Harrys_Wand-512.png"),  auto;
+font-family: 'Henny Penny', cursive;}
+header{
+	width: 100%	;
+	height: 100vh;
+	
+}
+.bg{
+	background-color: rgba(0,0,0,0.00);
+	height: 8vh;
+	position: relative;
+	width: 100%;
+	position: fixed;
+}
+.bg:hover{
+	background-color:rgba(0,0,0,0.30);
+}
+.bigmenu{
+	width: 100%;
+	height: 8vh;
+	position: absolute;
+	z-index: 10;
+}
+.logo{
+	width: 40%;
+	height: 8vh;
+	background-size: cover;
+	float: left;
+}
+.logo img {
+	height:7vh;
+	position: absolute;
+	left: 40px;
+	top: 5px;
+	z-index: 1000;
+	opacity: 0.8
+}
+.logo img:hover{
+	 -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+	opacity: 1
+}
+.menu{
+	width: 60%;
+	height: 8vh;
+	float: right;
+	color: white;
+	line-height: 8vh;
+}
+.menu ul{
+	list-style-type: none;
+	position: absolute;
+	right: 50px;
+}
+.menu ul li{
+	display: inline;
+	padding: 0 10px;
+}
+
+.menu a{
+	   text-decoration: none;
+	color: white;
+	font-size: 20px;
+	opacity: 0.8;
+	 transition: transform 1s;
+	margin: 0 auto;
+	
+
+}
+.menu a:hover{
+	transform: scale(1.5);
+	opacity: 1
+}
+.dropbtn {
+  padding: 16px;
+  font-size: 12px;
+  border: none;
+}
+
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+ .dropdown-content {
+	 font-size: 10px;
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  z-index: 1;
+}
+ .dropdown-content a {
+  color: white;
+  
+  text-decoration: none;
+  display: block;
+}
+
+/*.dropdown-content a:hover {background-color:rgba(0,0,0,0.00);}*/
+
+ .dropdown:hover .dropdown-content {display: block;}
+.footer{
+	height: 20vh;
+	width: 100%;
+	background:black;
+}
+.footer img{
+	height: 10vh;
+	margin-left: 44%;
+	margin-top: 3vh	
+}
+.footer h6{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
